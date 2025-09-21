@@ -1,0 +1,391 @@
+
+
+
+App-based Inventory System
+Project Documentation
+
+
+
+
+
+
+
+Group 8 Members
+1) Conciso, Psalmwel Kyle M.
+2) Laudes, Jaden Louie E.
+3) Medina, Art Gabriel L.
+4) Manikan, Isaiah Gabriel S.
+
+
+
+
+Table of Contents
+
+Table of Contents	1
+1.0 Introduction	3
+1.1 Background of the Study	3
+1.2 Statement of Objectives	4
+1.2.1 General Problem	4
+1.2.2 Specific Problems	4
+1.2.3 General Objective	5
+1.2.4 Specific Objectives	5
+1.3 Scope and Delimitation	5
+3.0 The Proposed System	6
+3.1 System Overview	6
+3.2 Functional Requirements	6
+3.3 Non-functional Requirements	8
+3.4 Use-case Diagram(s)	9
+3.5 Use-case Narratives	10
+3.6 GUIs	13
+3.7 Screen Layout	14
+3.8 Reports/Forms	16
+3.9 Modules	17
+4.0 System Coding	17
+4.1 Programming Language	17
+4.2 Database(s)	18
+5.0 Resource Requirements	18
+5.1 Hardware Requirements	18
+5.2 Software Requirements	18
+6.0 Appendices	18
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.0 Introduction
+Aling Narcing’s Retail, a hypothetical company with multiple grocery store branches throughout Metro Manila, has reported deteriorating growth rates for this year, hindered by the lower reporting rates of the inventory process. Considering the layoffs that were done over the past pandemic years, managing the inventory system has become a one-man job.  
+ 
+Our project entitled “App-Based Inventory System” aims to streamline the process of conducting an inventory by designing an IT solution that aims to digitalize and automate its basic processes. Our Java-based app will let the client manage all the store branches and monitor product information input directly into the system, eliminating the need for manual inventory. This will not only save time but also reduce the risk of errors in inventory management. 
+ 
+Furthermore, our app will show whether the items are in stock or out of stock in real-time, allowing for prompt reordering and reducing the occurrence of stockouts. This, in turn, will boost the company's profit and improve customer satisfaction.
+
+1.1 Background of the Study
+A grocery store with multiple branches throughout Metro Manila, Aling Narcing has been facing challenges maintaining her company's growth rates. The issue lies in the inventory management process, which has been reported at lower rates this year. The main focus of this project is to provide a new system that helps Aling Narcing's inventory management and overall increase the efficiency of monitoring and tracking of stocks in each branch.
+ 
+The current manual inventory management system is time-consuming and prone to errors, leading to inaccuracies in inventory records. Furthermore, the system lacks real-time stock monitoring, resulting in frequent stockouts and delays in reordering. These inefficiencies have been negatively impacting the company's profitability and customer satisfaction. In response to these challenges, our "App-Based Inventory System" project proposes a solution designed to digitalize and automate the basic inventory management processes. The Java-based app we are developing will allow the client to manage all the store branches and monitor product information input directly into the system, thereby eliminating the need for manual inventory. This approach is expected to save time, reduce the risk of errors in inventory management, and provide real-time stock updates. By enabling prompt reordering and reducing the occurrence of stockouts, the app aims to boost the company's profit and improve customer satisfaction. This study will focus on developing and implementing this app-based inventory system to address the specific problems faced by Aling Narcing's Retail.
+
+1.2 Statement of Objectives
+1.2.1 General Problem
+Aling Narcing's Retail, a multi-branch grocery store chain in Metro Manila, is seeing a drop in growth rates due to inadequate inventory management procedures. The manual system is time-consuming, prone to errors, and does not provide real-time stock monitoring, resulting in frequent shortages. This issue is made worse by a reduced workforce due to layoffs during the pandemic years, making inventory management a difficult one-person effort. The lack of an efficient inventory management system has a detrimental influence on the company's profitability and customer happiness. A digitized, automated, and real-time inventory management system is clearly required to handle these difficulties and improve the company's operating efficiency.
+
+1.2.2 Specific Problems
+There are various specific problems that the current inventory management system is suffering. The manual nature of the operation is inefficient and error-prone, resulting in inaccurate inventory data. The system's failure to give real-time stock updates causes frequent stockouts and reordering delays. A reduced workforce further compounds the problem due to pandemic-related layoffs, making inventory management difficult for a single person. These inefficiencies are reducing the company's profitability and customer satisfaction. Furthermore, the lack of a computerized, automated system impedes managing various shop branches and product information effectively, limiting the company's expansion.
+
+1.2.3 General Objective
+The general objective is to make a functioning App-based Inventory System that would help Aling Narcing’s Retail make a database of their products to lessen the time needed to monitor their stock and avoid item shortages. This will improve the company’s efficiency even with the lack of employees as there is an efficient inventory management system.
+
+1.2.4 Specific Objectives
+The specific objective of this project is to provide and develop a user-friendly interface for the inventory system that allows for easy use and monitoring of stocks. It is to ensure the application is scalable to ensure the company's growth. The last objective is to improve the company's efficiency through a real-time inventory management system.  
+
+1.3 Scope and Delimitation
+The scope of this project is as follows:
+
+Development: This project will cover the design and development of a Java-based app that will increase efficiency and include real-time stock management and monitoring. 
+
+Inventory Management: This project will focus on increasing the efficiency of manual inventory management and changing it into an app-based real-time inventory management system, which reduces errors and saves time. 
+
+On the other hand, the limit of this project is that it does not cover the different aspects of business management, like sales, marketing, and human errors. This project is purely focused on the inventory management system.
+
+
+
+3.0 The Proposed System
+3.1 System Overview
+
+The proposed system is an inventory management program designed to streamline operations for Aling Narcing's Retail. It encompasses a range of functional and non-functional requirements to address the current challenges faced by the manual inventory management system. The system aims to provide a user-friendly, efficient, and secure platform for managing products, user information, and transactions. 
+
+It focuses on user authentication, product and user management, a checkout system, and key quality attributes such as performance, reliability, usability, security, scalability, maintainability, compatibility, and availability. 
+
+3.2 Functional Requirements
+
+The functional requirement of the program is its sign-in feature, where the user will first sign in to the program to access its functionalities. The other functions that it has are its product search, add products, and edit product detail functions where the user can search the product in the program, and if they have other items that they would like to inventory, they can add them to the program as well as its details. Along with this is the ability to register new users and edit their details like adding, removing, or setting their attributes. There will also be a checkout system where the program would add items to their cart and initiate a transaction and receive a receipt.
+
+Name	Description	Version
+Functional Requirements		
+Sign-in Screen	This function allows the user to sign into the app using their username and password.	Version 0.1
+Manage Users	This function allows the organization to manage the users of the app. The user can add, edit, or delete the users and their information such as username, password, role, etc. And the level of their permissions such as updating the inventory and user management.
+
+User attributes:
+•	First Name
+•	Last Name
+•	Username
+•	Password
+•	Role
+•	1 – Cashier
+•	2 - Admin	Version 0.1
+Update Inventory	This function allows the user to update the inventory, by adding or subtracting the quantity and the associated product. The app will then update the inventory database based on the changes. The user will be able to see the logs.
+	Version 0.1
+Input SKU	This function will allow the user to manually input the SKU (stock-keeping unit) numbers, that serves as the identifier for each of the product and the system will return the following product that is registered from the database.	Version 0.1
+View product details	This function allows the user to view the details of a specific product such as name, price, quantity, category, description, image, etc
+
+Product attributes:
+•	Name
+•	Product ID
+•	SKU
+•	Category
+•	Description
+•	Price
+•	Quantity	Version 0.1
+Search products	This function allows the user to search for products by keywords, categories, or filters.	Version 0.1
+Add products to checkout	This function allows the user to add each product from the customer for checkout and set the quantity for each.	Version 0.1
+Initiate transaction	This function allows the user to initiate the transaction after the process of adding the products in the checkout is complete, the system will automatically update the products quantity in the inventory.
+	Version 0.1
+Generate a receipt	Generates a basic receipt for the transaction made by the customer.	Version 0.1
+
+3.3 Non-functional Requirements
+
+The non-functional requirements consist of the performance of the program, its reliability, usability, security, scalability, maintainability, compatibility, and availability. The program's performance should affect the sign-in and search functions so that it would not take over five seconds for the program to sign in to a user, and when the product is displayed, it should not take longer than three seconds. For its reliability, the program should have a system uptime of 99.99%, and the data entered by users should be reliably stored and retrieved without data loss. 
+
+Its usability the user interface should be intuitive, allowing the users to sign in and navigate without extensive training, and the search functionality should provide understandable results. The security should enable the program to have user authentication, making it so it would be secure, as well as utilizing encryption and secure protocols to protect user credentials. Access to product editing functions should be restricted to authorized users with appropriate permissions.
+
+The database should be scalable to accommodate increasing products and users. The program code should be well-documented to allow easy maintenance and updates by other developers, and regular backups of the database should be performed to ensure data integrity and facilitate system recovery in case of failures. The program should be compatible with any operating system, and it should be noted that the program should be accessible 24/7, with scheduled maintenance windows communicated in advance to users.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.4 Use-case Diagram(s)
+
+ 
+Use Case for App-based Inventory System Ver 0.1
+
+
+
+
+
+
+
+
+
+
+3.5 Use-case Narratives
+
+Sign in: 
+Actor Actions	System Responses
+1.	User signs in
+2.	User inputs username and password
+3.	User clicks “Sign in”	4.	Verifies Sign in credentials
+5.	Shows welcome page
+6.	Shows the main inventory system
+Alternative Scenarios	
+	1.	Verifies Sign in credentials 
+2.	Shows an error message and reset sign in credentials. 
+
+Managing Users:
+Manage Users Actions	System Responses
+1. Administrator signs in and clicks Manage Users (See Actor Actions)
+3. Administrator adds, edit, or delete users’ information
+5. Administrator presses “Ok” once the user’s information is added, edited, or deleted.
+7. Administrator updates the level of allowed user permission to the application.
+9. Administrator presses “Ok” to confirm the permission level of the user.	2. System returns log of users in the system
+4. Application shows input fields that has information such as username, password, email, role, etc.
+6. The users’ log is updated to what the administrator added, edited, or deleted.
+8. Application shows an input field that will let the administrator grant the user’s permission level
+10. Checks if all input fields are filled.
+11. The users’ log is updated and their permissions.
+Alternative Scenarios	
+9. User presses “Cancel”	10. All the fields will be cleared and will show what it initially is
+	10. Checks if all input fields are filled.
+11. If there is a field that does not have any input, an error message will notify the user that the input field is empty.
+
+Sign out: 
+Actor Actions	System Responses
+1.	User Clicks “Sign Out” 
+2.	User Clicks “Yes” 	1. Sends sign out confirmation to the user
+2. System saves updated inventory changes and signs out user.
+Alternative Scenarios	
+1.	Clicks “No”	2.	Sends sign out confirmation to the user
+3.	Reverts back to the current page 
+
+Update Inventory:
+Update Inventory Actions	System Responses
+1. User chooses to update inventory
+3. User inputs supply name
+5. User adds or subtracts the number of associated products	2. Show log of products in the inventory
+4. Checks if product is in inventory
+6. The log is updated as the user updates the product’s quantity
+Alternative Scenarios	
+	4. Checks if product is in inventory
+5. Sends an error message stating that the product given is not a part of the inventory.
+
+
+
+
+Search for a Product: 
+Actor Actions	System Responses
+1.	User inputs keywords into the text area
+2.	User selects the chosen product
+	3.	System reads the keywords and shows relevant products from the inventory
+4.	System displays details from the chosen products
+Alternative Scenarios	
+1.	User inputs keywords into the text area
+	2.	System reads the keywords 
+3.	System displays error message “No product found”
+
+Input SKU:
+Actor Actions	System Responses
+1.	User inputs the SKU to the inventory system (use search for a product case)
+2.	User selects the chosen product
+3.	 User clicks “Edit” 
+4.	User inputs the new quantity for the chosen product
+5.	User clicks “Confirm”	6.	System reads the SKU and displays all the products from the inventory
+7.	System displays the details from the chosen products
+8.	System edits the new quantity to the database 
+9.	System saves the database
+
+Viewing of Product Details
+Actor Actions	System Responses
+1. User chooses “View Product Details”
+
+	2. System returns product details from inventory database. Showing the product’s name, ID, SKU, Category, Description, Price, Quantity, and its Image
+
+
+
+
+
+
+
+
+3.6 GUIs
+
+I.	Sign-in Screen
+This is the first screen that the user sees when they launch the app. It allows the user to sign in using their username and password. 
+
+II.	Inventory Management Panel
+This is the main screen that the user sees after they sign in. If the user’s role is a cashier, they may proceed to this panel. It allows the user to manage the inventory of products. It allows the user to search for products, add or remove products from inventory, and edit the product details such as name, price, quantity, category, description, image, etc.
+
+III.	 Checkout Panel
+This is the panel that allows the cashier to process the transactions when a customer is purchasing products. It allows the user to input the products by inputting the SKU number of the item, add and remove products from the cart, input the quantity, initiate the transaction, and generate a receipt.
+
+IV.	User Management Panel
+This is the panel that allows users with the administrator role to manage the users of the app. It allows the administrator to add, edit, or delete the users and their information such as username, password, role, etc.	
+
+
+
+
+
+
+
+
+
+3.7 Screen Layout
+
+I.	Sign-in Panel
+
+ 
+
+II.	Inventory Management Panel
+
+ 
+
+
+III.	 Checkout Panel
+
+ 
+
+IV.	  User Management Panel
+
+ 
+3.8 Reports/Forms
+
+I.	Receipt
+This is the report exported in a txt. file that the app generates after the user initiates a transaction from the checkout panel. It contains the details of the transaction such as the date and time, the list of products purchased, the total amount, the payment method, etc. It allows the user to provide proof of purchase to the customer and to keep a record of the sales.scope
+
+3.9 Modules
+
+•	Javax.swing
+The main framework for the app’s user interface. This will provide our app with the different GUI components and event handling, such as the windows, panels, buttons, labels, text fields, etc., and so that the app responds to the user’s actions such as mouse and keyboard inputs.
+
+•	Javax.util
+This will provide numerous utility classes and methods for the app. This will allow the app to do the common tasks such as sorting, searching, formatting, and parsing of data.
+
+•	Javax.io
+This module will provide the object serialization and deserialization of our inventory and user data. The app will use this module to automatically load and save the data to a file portably.
+
+4.0 System Coding
+4.1 Programming Language
+The main programming language that the app uses is Java. We chose Java since it is a high-level object-oriented language which fits our project which will heavily rely on classes such as users, products, transactions etc. It also has a lot of libraries that can help the app. For example, we used the javax.swing library for our UI framework. It is also a language we are already familiar with from our previous lessons. 
+4.2 Database(s)
+For simplicity, the app will not use any external database management system. Instead, it will use Java objects, and the serialization and deserialization feature to store and retrieve the user and inventory data. The app will use the java.io module to load and save the serialized files.
+
+5.0 Resource Requirements
+5.1 Hardware Requirements
+The app does not require any proprietary software, as it is based on open-source software. The software requirements are as follows:
+
+•	Processor: Any processor that can run Java, like Intel Core i3 or AMD Ryzen 3
+•	Memory: At least 2 GB of RAM
+•	Storage: At least 100 MB of free space
+•	Display: Any screen that can show the app, like a monitor or a laptop screen
+•	Input: Anything that can click or type on the app, like a keyboard or a mouse
+•	Output: Anything that can print the receipt, like a printer or a scanner
+
+5.2 Software Requirements
+The software requirements of the app are the things that the device needs to install to run the app. Similar to the hardware requirements, the app does not need any special software.
+ 
+•	Operating System: Any system that can run Java, like Windows, Linux, or Mac OS
+•	Java: The newest version of Java Runtime Environment (JRE) and Java Development Kit (JDK), such as Java 16.
+•	IDE: Any program that can make and run Java, like Eclipse or NetBeans
+6.0 Appendices
+
+ 
+
+Figure 1. A screenshot of the Java IDE NetBeans, used for the development of the application. The screen is set to the Inventory Management panel.
+
+
+
+ 
+
+Figure 2. A screenshot of the Java IDE NetBeans, used for the development of the application. The screen is set to the User Management panel.
+
+
+ 
+
+Figure 3. A screenshot of one of the codes in development inside the working IDE.

@@ -1,0 +1,52 @@
+Project demo script
+Conciso – Login Screen
+Hello everyone, this is group 8, and welcome to the project demo of the app-based inventory system. This app is a Java-based inventory system that allows users to manage products, accounts, and transactions using Swing forms. It has four main parts: login screen, checkout panel screen, inventory management screen, and user management screen. It also supports multiple user roles, such as admin and user, with different access levels and functionalities. Let's see how the app works in action.
+ 
+First, we will show you the login screen. Here you can enter your username and password to sign in to the app. There are two default accounts, admin-1234 and user-1234, that you can use to test the app. We will use the user account for now. 
+ 
+Medina – Checkout Panel Screen
+After signing in, you will see the checkout panel screen. This is where you can add products to the cart, delete products from the cart, clear the cart, and initiate a transaction. You can also see the current signed in username with a greeting hello text, a button to go to the inventory management screen, and a sign out button.
+ 
+To add a product to the cart, you can click on the add product button. This will open a separate form, where you can input the SKU and the quantity of the product you want to add. The app will check if the quantity is valid and if the product is in stock. If not, it will show an error message.
+ 
+To delete a product from the cart, you can select the product from the table and click on the delete selected button. This will remove the product from the cart and put it back to the inventory.
+ 
+To clear the cart, you can click on the clear button. This will delete everything from the cart and put them all back to the inventory.
+ 
+Finally, to initiate a transaction, you can click on the initiate transaction button. The app will then notify the user of a successful transaction and will update the inventory.
+ 
+ 
+Laudes – Inventory Management Screen
+Now let's move on to the inventory management screen. To go to the inventory management screen, you can click on the button on the top right corner of the checkout panel screen beside the sign out button.
+
+The inventory management screen is where you can view, search, add, edit, and remove products from the inventory. You can see a table containing the items in the inventory, a panel showing the info of the selected product, a search field for filtering items in the table, and buttons for adding, editing, and removing products.
+
+To view the info of a product, you can select the product from the table. The panel on the side of the screen will show the name, brand, quantity, SKU, and price of the product. 
+ 
+To search for a product, you can enter a keyword in the search field. The table will only show the products that match the keyword. You can also clear the search field to show all the products again.
+ 
+ 	To add a product to the inventory, you can click on the add product button. This will open a separate form, where you can enter the name, brand, description, quantity, and price of the product. You can also click on the save changes button to add the product to the inventory, or the cancel button to close the form. 
+ 
+To edit the info of a product, you can select the product from the table and click on the edit information button. This will open a separate form, where you can modify the fields of the product, such as name, brand, description, quantity, and price. You can also click on the save changes button to update the product in the inventory, or the cancel button to close the form. 
+ 
+Lastly, to remove a product from the inventory, you can select the product from the table and click on the remove product button, and a popup will show that the product has been removed successfully.
+ 
+ 
+ 
+Manikan – User Managemet Screen
+Now let's move on to the user management screen. This screen can only be accessed by an admin account, so we will have to sign out from the user account and sign in as the admin account. To sign out, you can click on the sign out button on the top right corner of the inventory management screen. 
+ 
+To sign in as the admin account, you can enter the username and password of the admin account, which are admin and 1234. 
+ 
+The user management screen is where you can view, register, edit, and remove users from the app. You can see a table containing the users, a panel showing the info of the selected user, and buttons for registering, editing, and removing users.
+ 
+To view the info of a user, you can select the user from the table. The panel on the side of the screen will show the name, username, and role of the user. 
+
+To register a new user, you can click on the register new user button. This will open a separate form, where you can enter the name, username, password, and confirm password of the new user. You can also choose the role of the new user, either user or admin, by clicking on the corresponding button. You can also click on the cancel button to close the form. 
+ 
+To edit the info of a user, you can select the user from the table and click on the edit information button. This will open a separate form, where you can modify the fields of the user, such as name, username, password, and confirm password. You can also click on the apply changes button to update the user in the app, or the cancel button to close the form. 
+ 
+Finally, to remove a user from the app, you can select the user from the table and click on the remove user button. This will show a notification message saying that the removal has been successful.
+ 
+Conciso 
+So, This concludes our project demo of the app-based inventory system. We hope you enjoyed it and learned something new.
